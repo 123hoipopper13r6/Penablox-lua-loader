@@ -11,7 +11,7 @@ its name and author. Load and unload scripts individually or all at once.
 3. Load it. A notification confirms it is running.
 4. Press `RightShift` to open or close the window.
 
-If you host `loader.lua` at the repo root, you can bootstrap it with one line instead:
+## Loader:
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/123hoipopper13r6/Penablox-lua-loader/main/loader.lua"))()
