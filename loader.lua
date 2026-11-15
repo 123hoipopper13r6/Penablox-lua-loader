@@ -656,6 +656,9 @@ local function make(kind, props)
     for key, value in pairs(props) do
         obj[key] = value
     end
+    if kind == "Square" and props.Filled == nil then
+        obj.Filled = true
+    end
     return obj
 end
 
